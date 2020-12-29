@@ -13,7 +13,7 @@ namespace ass5webappdesk
     {
         public static string getWhileLoopData()
         {
-            string connectionString = "Server=tcp:ass5bilgi.database.windows.net,1433;Initial Catalog=dbass5bilgi;Persist Security Info=False;User ID=KristynAdmin;Password=w$^9ChL3Kqze@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string connectionString = "Server=tcp:ass5bilgi.database.windows.net,1433;Initial Catalog=dbass5bilgi;Persist Security Info=False;User ID=KristynAdmin;Password=xxx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             string htmlStr = "";
             SqlConnection thisConnection = new SqlConnection(connectionString);
             SqlCommand thisCommand = thisConnection.CreateCommand();
